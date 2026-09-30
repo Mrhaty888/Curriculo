@@ -1,0 +1,120 @@
+@import url('https://googleapis.com');
+
+
+body {
+    background-image:linear-gradient(160deg,rgb(16, 0, 46),rgb(0, 15, 150));
+    min-height: 100vh;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    font-family: 'Inter',sans-serif;
+    color:azure;
+}
+
+/*Entrada*/
+
+.entrada{
+    animation: subir 1s ease-out forwards;
+    
+}
+
+.entrada h1{ 
+    font-size:70px;
+    text-align:center;
+    padding: 50px;
+    color:white;
+
+    transition: color 0.5s ease, padding 0.5s ease-out;
+
+}
+
+.entrada h2{
+    color:azure;
+    text-align: center;
+    font-size: 20px;
+}
+
+.entrada h1:hover {
+    color: rgb(240, 164, 250);
+    padding: 60px;
+}
+
+@keyframes subir {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.link-titulo {
+    color: inherit;          /* Faz o link herdar a cor exata do h2 */
+    text-decoration: none;   /* Remove o risco embaixo do texto */
+    transition: opacity 0.2s; /* Deixa o efeito visual suave */
+}
+
+.link-titulo:hover {
+    opacity: 0.8;            /* Dá um efeito discreto de brilho/opacidade ao passar o mouse */
+    text-decoration: underline; /* Opcional: mostra o sublinhado só ao passar o mouse */
+}
+/*Objetivos principais*/
+
+.objetivos{
+    animation: subir 2s ease-out forwards;
+    color: rgb(147, 148, 148);
+    padding: 40 20px;
+    max-width:800px;
+    margin: 0 auto;
+}
+
+.objetivos h1{
+    font-size: 30px;
+    padding-top: 50px;
+    text-align:left
+}
+
+.objetivos h3{
+    font-size: 20px;
+    text-align: left;
+}
+
+.formacao {
+    animation: subir 2.5s ease-out forwards;
+    color:cornsilk;
+    padding: 0 20px;
+    max-width:800px;
+    margin: 0 auto;
+}
+
+.formacao h1{
+    font-size:30px;
+    text-align:left;
+}
+
+.formacao h3{
+    text-align:left;
+}
+
+.competencias{
+    animation: subir 2.5s ease-out forwards;
+    padding: 0 20px;
+    max-width:800px;
+    margin: 0 auto;
+}
+
+.projetos{
+    animation: subir 2.5s ease-out forwards;
+    padding: 0 20px;
+    max-width:800px;
+    margin: 0 auto;
+}
+
+.idiomas{
+    animation: subir 2.5s ease-out forwards;
+    padding: 0 20px;
+    max-width:800px;
+    margin: 0 auto;
+}
