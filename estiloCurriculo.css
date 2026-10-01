@@ -5,8 +5,7 @@ body {
     background-image:linear-gradient(160deg,rgb(16, 0, 46),rgb(0, 15, 150));
     min-height: 100vh;
     margin: 0;
-    padding: 20;
-    overflow: hidden;
+    padding: 20px;
     font-family: 'Inter',sans-serif;
     color:azure;
 }
@@ -19,9 +18,9 @@ body {
 }
 
 .entrada h1{ 
-    font-size:70px;
+    font-size:42px;
     text-align:center;
-    padding: 50px;
+    padding: 30 10px;
     color:white;
 
     transition: color 0.5s ease, padding 0.5s ease-out;
@@ -51,21 +50,21 @@ body {
 }
 
 .link-titulo {
-    color: inherit;          /* Faz o link herdar a cor exata do h2 */
-    text-decoration: none;   /* Remove o risco embaixo do texto */
-    transition: opacity 0.2s; /* Deixa o efeito visual suave */
+    color: inherit;         
+    text-decoration: none;   
+    transition: opacity 0.2s;
 }
 
 .link-titulo:hover {
-    opacity: 0.8;            /* Dá um efeito discreto de brilho/opacidade ao passar o mouse */
-    text-decoration: underline; /* Opcional: mostra o sublinhado só ao passar o mouse */
+    opacity: 0.8;            
+    text-decoration: underline; 
 }
 /*Objetivos principais*/
 
 .objetivos{
     animation: subir 2s ease-out forwards;
     color: rgb(147, 148, 148);
-    padding: 40 20px;
+    padding: 40px 20px;
     max-width:800px;
     margin: 0 auto;
 }
